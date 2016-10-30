@@ -18,6 +18,19 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Course.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Preferences.cpp" />
+    <ClCompile Include="Schedule.cpp" />
+    <ClCompile Include="Section.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Course.h" />
+    <ClInclude Include="Preferences.h" />
+    <ClInclude Include="Schedule.h" />
+    <ClInclude Include="Section.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{ECF7B07A-015F-4238-90A7-8ECBDC9AFF41}</ProjectGuid>
     <RootNamespace>ScheduleOptimizer</RootNamespace>
@@ -109,8 +122,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
